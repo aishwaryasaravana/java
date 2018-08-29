@@ -1,0 +1,17 @@
+public class ex17 {  
+		    int id;  
+		    String name;  
+		      
+	    ex17(int id,String name){  
+		    id = id;  
+		    name = name;  
+		    }  
+		    void display(){System.out.println(id+" "+name);}  
+		  
+		    public static void main(String args[]){  
+		    ex17 s1 = new ex17(111,"Karan");  
+	   ex17 s2 = new ex17(321,"Aryan");  
+		    s1.display();  
+	    s2.display();  
+		    }  
+		}  
