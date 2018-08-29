@@ -1,0 +1,28 @@
+public class ex16 {  
+		     int rollno;  
+		     String name;  
+		     static String college = "ITS";  
+		       
+		     static void change(){  
+		     college = "BBDIT";  
+		     }  
+	  
+	ex16(int r, String n){  
+		     rollno = r;  
+		     name = n;  
+	     }  
+		  
+		     void display (){System.out.println(rollno+" "+name+" "+college);}  
+		  
+		    public static void main(String args[]){  
+	ex16.change();  
+		  
+	ex16 s1 = new ex16 (111,"Karan");  
+	ex16 s2 = new ex16 (222,"Aryan");  
+	ex16 s3 = new ex16 (333,"Sonoo");  
+		  
+		    s1.display();  
+	    s2.display();  
+		    s3.display();  
+		    }  
+		}  
